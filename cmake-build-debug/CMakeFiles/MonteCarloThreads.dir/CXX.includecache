@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/MonteCarloTask.cpp
+MonteCarloTask.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/MonteCarloTask.h
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/MonteCarloTask.h
+iostream
+-
+Task.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/Task.h
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/Task.h
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.cpp
+iostream
+-
+iomanip
+-
+TaskPoolManager.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.h
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.h
+queue
+/Users/edanhauon/CLionProjects/MonteCarloThreads/queue
+Task.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/Task.h
+pthread.h
+-
+MonteCarloTask.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/MonteCarloTask.h
+
+/Users/edanhauon/CLionProjects/MonteCarloThreads/main.cpp
+iostream
+-
+TaskPoolManager.h
+/Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.h
+
