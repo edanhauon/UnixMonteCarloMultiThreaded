@@ -10,13 +10,24 @@ using namespace std;
 class Task {
 protected:
     void* arg;
+    bool busy;
 public:
-    Task(void* arg) : arg(arg) {}
+    Task(void* arg) : arg(arg), busy(false) {}
+
     virtual void* operator()(void* _arg) = 0;
     static void* runner(void *_taskArg) {
         Task* task = static_cast<Task*>(_taskArg);
-        return (*task)(task->arg);
+        task->busy = true;
+        //Should implement queue extraction and start working here
+        for(;;) {
+
+        }
+        task->busy = true;
+//        return (*task)(task->arg);
+        return NULL;
     }
+
+    bool isBusy() const { return busy; }
 };
 
 

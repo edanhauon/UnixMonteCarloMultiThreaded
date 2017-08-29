@@ -12,14 +12,16 @@
 
 using namespace std;
 
-
 class TaskPoolManager {
 private:
     queue<Task*> taskQueue;
     pthread_t* workerPool;
-    pthread_mutex_t* lockFlagPool;
+    //pthread_mutex_t* lockFlagPool;
+    pthread_cond_t qcond = PTHREAD_COND_INITIALIZER;
+    vector<Task*> currentWorkers;
 public:
     TaskPoolManager(int numberOfWorkers, Task** tasks);
+    void run();
 };
 
 

@@ -21,8 +21,6 @@ Task.h
 /Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.cpp
 iostream
 -
-iomanip
--
 TaskPoolManager.h
 /Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.h
 
@@ -38,6 +36,8 @@ MonteCarloTask.h
 
 /Users/edanhauon/CLionProjects/MonteCarloThreads/main.cpp
 iostream
+-
+iomanip
 -
 TaskPoolManager.h
 /Users/edanhauon/CLionProjects/MonteCarloThreads/TaskPoolManager.h
